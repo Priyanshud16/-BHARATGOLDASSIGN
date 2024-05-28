@@ -23,6 +23,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding-left: 50px;
     gap: 20px;
+    margin-top: 10px;
    
 }
 #parentContainer{
@@ -37,7 +38,7 @@
         width: 40%;
         padding: 20px;
         border-radius: 10px;
-        border: 1px solid red;
+      
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         padding-left: 50px;
     }
@@ -52,10 +53,10 @@
     /* Your CSS styles for small devices here */
     #MainContainer{
    
-        width: 50%;
+        width: 100%;
         padding: 20px;
         border-radius: 10px;
-        border: 1px solid green;
+     
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         /* padding-left: 50px; */
     }
