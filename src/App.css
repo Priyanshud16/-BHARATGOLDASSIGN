@@ -1,0 +1,69 @@
+#MainContainer{
+   
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 50px;
+}
+#Btn{
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#Btn:hover{
+    color: white;
+    background-color: black;
+}
+#dataContainer{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 50px;
+    gap: 20px;
+   
+}
+#parentContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Your CSS styles for medium devices here */
+    #MainContainer{
+   
+        width: 40%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid red;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-left: 50px;
+    }
+
+    #parentContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* Your CSS styles for small devices here */
+    #MainContainer{
+   
+        width: 50%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid green;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* padding-left: 50px; */
+    }
+
+    #parentContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  
+  
